@@ -1,0 +1,12 @@
+[package]
+name = "symmetric_pre"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = { version = "0.4" , features = ["rand"]}
+num-traits = "0.2"
+factorial = "0.4"
+rand = "0.8"
+collar = "1.0"
+sha3 = "0.10"
